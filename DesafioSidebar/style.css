@@ -1,0 +1,31 @@
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+      --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+
+.sidebar {
+  display: flex;
+  background-color: var(--green);
+}
+
+aside, main{
+  height: 95vh;
+}
+
+aside{
+  width: 40px;
+  gap: 15rem;
+}
+
+main {
+  flex: 1;
+  background-color: var(--body-bg-color);
+}
+
+button{
+  display: flex;
+  background-color: var(--green);
+}
