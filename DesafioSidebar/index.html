@@ -9,61 +9,53 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="containerSidebar">
-            <div class="sideBar" id="sidebarOpen">
-                <div class="topSidebar">
-                    <div class="logoSection">
-                        <img id="logo" src="./images/logo.svg" alt="">
-                    </div>
-                    <div class="btnSection">
-                        <button  onclick={menu()} id="menuBtn">
-                            <img src="./images/menu.svg"  alt="">
-                        </button>
-                    </div>
-                </div>               
-                <div class="sidebarItens">
-                    <div class="sidebarItensSection" id="active">
-                        <img src="./images/search.svg" alt="">
-                        <input type="text" name="" id="input" placeholder="Buscar" maxlength="10">
-                    </div>
-                    <div class="sidebarItensSection">
-                        <img src="./images/grid.svg" alt="">
-                        <p>Dashboard</p>
-                    </div>
-                    <div class="sidebarItensSection">
-                        <img src="./images/pet.svg" alt="">
-                        <p>Pets</p>
-                    </div>
-                    <div class="sidebarItensSection">
-                        <img src="./images/user.svg" alt="">
-                        <p>Clientes</p>
-                    </div>
-                    <div class="sidebarItensSection">
-                        <img src="./images/vet.svg" alt="">
-                        <p>Vets</p>
-                    </div>
-                    <div class="sidebarItensSection">
-                        <img src="./images/settings.svg" alt="">
-                        <p>Ajustes</p>
-                    </div>
-                </div>
-                <div class="bottombar">
-                    <div class="bottombarElements">
-                        <img class="imageProfile" src="./images/photo.jpg" alt="">
-                        <div class="informationProfile">
-                            <h4 class="nameProfile"> Eleanor Pena </h4>
-                            <p class="jobProfile">veterinária</p>
-                        </div>
-                        <img class="btnOut" src="./images/log-out.svg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="containerTitle">
-                <h1 class="title">Dashboard</h1>
-            </div>
+    <nav>
+        <div class="menu-nav">
+          <div class="header-nav">
+            <img class="img-icone" src="images/logo.svg" alt="Icone da Vet.">
+            <button onclick="clicou()"><img src="images/menu.svg" alt="Icone do Menu"></button>
+          </div>
+          <div class="content-menu active">
+            <img src="images/search.svg" alt="Icone de Pesquisa">
+            <p class="text-p">Buscar</p>
+          </div>
+          <div class="content-menu">
+            <img src="images/grid.svg" alt="Icone de Dashboard">
+            <p class="text-p">Dashboard</p>
+          </div>
+          <div class="content-menu">
+            <img src="images/pet.svg" alt="Icone de Pets">
+            <p class="text-p">Pets</p>
+          </div>
+          <div class="content-menu">
+            <img src="images/user.svg" alt="Icone de Clientes">
+            <p class="text-p">Clientes</p>
+          </div>
+          <div class="content-menu">
+            <img src="images/vet.svg" alt="Icone de Veterinário">
+            <p class="text-p">Vets</p>
+          </div>
+          <div class="content-menu">
+            <img src="images/settings.svg" alt="Icone de Ajustes">
+            <p class="text-p">Ajustes</p>
+          </div>
         </div>
-    </div>
+        <div class="footer-nav">
+          <div class="info-user">
+            <img src="images/photo.jpg" alt="Foto do Usuário">
+            <div class="text-user">
+              <p>Eleanor Pena</p>
+              <p>Veterinária</p>
+            </div>
+          </div>
+          <img src="images/log-out.svg" alt="Icone de Sair">
+        </div>
+    </nav>
+    
+    <main>
+        <h1>Dashboard</h1>
+    </main>
+
     <script src="function.js"></script>
 </body>
 </html>
