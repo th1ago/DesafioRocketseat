@@ -5,25 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="function.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
-    <div class="sidebar">
-        <aside>
-            <button onclick={acesso()}>
-                <img src="./images//menu.svg"></img>
-            </button>
-            <img src="./images/search.svg"></img>
-            <img src="./images/grid.svg"></img>
-            <img src="./images/pet.svg"></img>
-            <img src="./images/user.svg"></img>
-            <img src="./images/vet.svg"></img>
-            <img src="./images/settings.svg"></img>
-        </aside>
-        <main>
-            Dashboard
-        </main>
+    <div class="container">
+        <div class="containerSidebar">
+            <div class="sideBar" id="sidebarOpen">
+                <div class="topSidebar">
+                    <div class="logoSection">
+                        <img id="logo" src="./images/logo.svg" alt="">
+                    </div>
+                    <div class="btnSection">
+                        <button  onclick={menu()} id="menuBtn">
+                            <img src="./images/menu.svg"  alt="">
+                        </button>
+                    </div>
+                </div>               
+                <div class="sidebarItens">
+                    <div class="sidebarItensSection" id="active">
+                        <img src="./images/search.svg" alt="">
+                        <input type="text" name="" id="input" placeholder="Buscar" maxlength="10">
+                    </div>
+                    <div class="sidebarItensSection">
+                        <img src="./images/grid.svg" alt="">
+                        <p>Dashboard</p>
+                    </div>
+                    <div class="sidebarItensSection">
+                        <img src="./images/pet.svg" alt="">
+                        <p>Pets</p>
+                    </div>
+                    <div class="sidebarItensSection">
+                        <img src="./images/user.svg" alt="">
+                        <p>Clientes</p>
+                    </div>
+                    <div class="sidebarItensSection">
+                        <img src="./images/vet.svg" alt="">
+                        <p>Vets</p>
+                    </div>
+                    <div class="sidebarItensSection">
+                        <img src="./images/settings.svg" alt="">
+                        <p>Ajustes</p>
+                    </div>
+                </div>
+                <div class="bottombar">
+                    <div class="bottombarElements">
+                        <img class="imageProfile" src="./images/photo.jpg" alt="">
+                        <div class="informationProfile">
+                            <h4 class="nameProfile"> Eleanor Pena </h4>
+                            <p class="jobProfile">veterinária</p>
+                        </div>
+                        <img class="btnOut" src="./images/log-out.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="containerTitle">
+                <h1 class="title">Dashboard</h1>
+            </div>
+        </div>
     </div>
+    <script src="function.js"></script>
 </body>
 </html>

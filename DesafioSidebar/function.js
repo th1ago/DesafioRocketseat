@@ -1,4 +1,8 @@
-function acesso() {
-    const menu = document.querySelector('sidebar')
-    console.log("123")
+let btn = document.querySelector("#menuBtn");
+let sidebar =  document.querySelector(".sideBar");
+let hideLogo = document.getElementById("logo");
+
+btn.onclick = function menu() {
+    sidebar.classList.toggle("close");
+   
 }
