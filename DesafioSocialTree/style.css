@@ -4,3 +4,54 @@
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
 }
+
+.Ellipse{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 612px;
+    top: 201px;
+
+    border: 2px solid var(--purple);
+    border-radius: 23%;
+    box-sizing: border-box;
+}
+
+.Mask{
+    width: 200px;
+    height: 200px;
+    left: 619px;
+    top: 207px;
+    border-radius: 23%;
+}
+
+.instagram {
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 669px;
+    top: 429px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: var(--purple);
+}
+
+.Link1{
+    position: absolute;
+    width: 326px;
+    height: 49px;
+    left: 556px;
+    top: 486px;
+
+    border: 2px solid #BB99DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
