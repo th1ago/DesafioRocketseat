@@ -94,6 +94,13 @@ p {
     border-radius: 4px;
 }
 
+.link2 p{
+    position: absolute;
+    width: 326px;
+    height: 24px;
+    left: 130px;
+}
+
 .link3{
     position: absolute;
     width: 326px;
@@ -106,6 +113,13 @@ p {
     border-radius: 4px;
 }
 
+.link3 p{
+    position: absolute;
+    width: 326px;
+    height: 24px;
+    left: 130px;
+}
+
 .link4 {
     position: absolute;
     width: 326px;
@@ -116,4 +130,11 @@ p {
     border: 2px solid #BB99DD;
     box-sizing: border-box;
     border-radius: 4px;
+}
+
+.link4 p{
+    position: absolute;
+    width: 326px;
+    height: 24px;
+    left: 130px;
 }
