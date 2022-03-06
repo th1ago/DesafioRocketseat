@@ -28,16 +28,15 @@ p {
     top: 201px;
 
     border: 2px solid var(--purple);
-    border-radius: 23%;
+    border-radius: 50%;
     box-sizing: border-box;
 }
 
 .Mask{
     width: 200px;
     height: 200px;
-    left: 619px;
-    top: 207px;
-    border-radius: 23%;
+    left: 1px;
+    border-radius: 50%;
 }
 
 .instagram {
