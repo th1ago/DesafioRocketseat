@@ -44,12 +44,48 @@
     color: var(--purple);
 }
 
-.Link1{
+.link1{
     position: absolute;
     width: 326px;
     height: 49px;
     left: 556px;
     top: 486px;
+
+    border: 2px solid #BB99DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.link2 {
+    position: absolute;
+    width: 326px;
+    height: 49px;
+    left: 556px;
+    top: 551px;
+
+    border: 2px solid #BB99DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.link3{
+    position: absolute;
+    width: 326px;
+    height: 49px;
+    left: 556px;
+    top: 616px;
+
+    border: 2px solid #BB99DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.link4 {
+    position: absolute;
+    width: 326px;
+    height: 49px;
+    left: 556px;
+    top: 681px;
 
     border: 2px solid #BB99DD;
     box-sizing: border-box;
