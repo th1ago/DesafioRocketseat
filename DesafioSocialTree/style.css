@@ -139,3 +139,13 @@ p {
     height: 24px;
     left: 130px;
 }
+
+.group {
+    position: absolute;
+    width: 236px;
+    height: 24px;
+    left: 601px;
+    top: 798px;
+    display: flex;
+    justify-content: space-between;
+}
