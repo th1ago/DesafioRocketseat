@@ -33,9 +33,11 @@ p {
 }
 
 .Mask{
+    position: absolute;
     width: 200px;
     height: 200px;
-    left: 1px;
+    left: 5px;
+    top: 5px;
     border-radius: 50%;
 }
 
