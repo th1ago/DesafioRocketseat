@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 :root {
     --body-bg-color: #22212C;
@@ -14,38 +9,22 @@
 }
 
 .main {
-    display: inline-block;
+    display: flex;
 }
 .profile {
     /* top right bottom left */
-    top: 40px;
-    bottom: 40px;
-    height: 292px;
-    width: 348px;
     background-color: var(--body-bg-color);
 }
 
 .links {
-    top: 40px;
-    bottom: 362px;
-    height: 248px;
-    width: 348px;
     background-color: var(--body-bg-color);
 }
 
 .tecnologias {
-    top: 40px;
-    bottom: 740px;
-    height: 208px;
-    width: 348px;
     background-color: var(--body-bg-color);
 }
   
 .experiencia {
-    top: 40px;
-    bottom: 978px;
-    height: 349px;
-    width: 348px;
     background-color: var(--body-bg-color);
 }
 
@@ -55,9 +34,7 @@ p {
 }
 
 .MyProjects{
-    top: 448px;
-    bottom: 40px;
-    height: 86px;
-    width: 952px;
+    position: relative;
+    left: 50px;
     background-color: var(--body-bg-color);
 }
