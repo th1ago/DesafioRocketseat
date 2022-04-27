@@ -11,6 +11,27 @@
 .main {
     display: flex;
 }
+
+.Eclipse{
+    width: 213px;
+    height: 213px;
+    left: 612px;
+    top: 201px;
+
+    border: 2px solid var(--purple);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.Mask{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 5px;
+    top: 5px;
+    border-radius: 50%;
+}
+
 .profile {
     /* top right bottom left */
     background-color: var(--body-bg-color);
