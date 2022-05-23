@@ -8,7 +8,7 @@
     --bg-techs: #CB92B1;
 }
 
-.Eclipse{
+.eclipse{
     width: 210px;
     height: 210px;
     border: 2px solid var(--purple);
@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 
-.Mask{
+.mask{
     position: absolute;
     width: 190px;
     height: 190px;
@@ -32,10 +32,26 @@
     border-radius: 2%;
 }
 
-.MyProjects{
+.myProjects{
     position: absolute;
     left: 250px;
     top: 10px;
+    width: 500px;
+    background-color: var(--body-bg-color);
+}
+
+.folder{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    width: 500px;
+    background-color: var(--body-bg-color);
+}
+
+.posts{
+    position: absolute;
+    left: 250px;
+    top: 260px;
     width: 500px;
     background-color: var(--body-bg-color);
 }
