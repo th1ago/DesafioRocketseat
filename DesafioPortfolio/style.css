@@ -75,13 +75,25 @@ body {
     background-color: var(--bg-cards);
     border-radius: 20px;
     width: 100%;
-    height: 240px;
+    height: 300px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin-top: 30px;
     border: 50px;
 }
 
-.mediaSocial p {
+.mediaSocial > div{
+    display: flex;
+    padding: 20px 40px 3px;
+  }
+
+.social img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+}
+
+.social p {
     padding: 6px 20px 0px 20px ;
 }
 
@@ -103,6 +115,19 @@ body {
     margin: 0 auto;
 }
 
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-techs);
+    border-radius: 30px;
+    font-size: 10px;
+    color: black;
+    font-weight: 700;
+    padding: 2px 8px ;
+    margin: 5px;
+}
+
 .projects{
     width: 100%;
     min-width: 100px;
@@ -111,8 +136,77 @@ body {
 .myProjects{
     background-color: var(--bg-cards);
     border-radius: 20px;
-    width: 100%;
+    width: 99%;
     height: 76px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 32px 89px 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myPprojects a {
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.myPprojects > section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box-project-1{
+    position: absolute;
+    right: 50px;
+    width: 44%;
+    height: 180px;
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 30px 0 30px 0px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-project-1 img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.box-project-1  p{
+  padding-left: 40px;
+  font-weight: 700;
+}
+
+
+.box-project-2 {
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    width: 44%;
+    height: 180px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 30px 0 30px 0px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.box-project-2 img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.box-project-2  p{
+  padding-left: 40px;
+  font-weight: 700;
+}
+.post {
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    width: 99%;
+    height: 86px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     padding: 32px 89px 32px 0px;
     display: flex;
