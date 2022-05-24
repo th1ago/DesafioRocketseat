@@ -31,7 +31,9 @@ body {
 }
 
 .profile {
+    position: relative;
     width: 500px;
+    right: 10px;
 }
 
 .photo {
@@ -99,4 +101,21 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
+}
+
+.projects{
+    width: 100%;
+    min-width: 100px;
+}
+
+.myProjects{
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    width: 100%;
+    height: 76px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 32px 89px 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
